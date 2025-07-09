@@ -1,0 +1,4 @@
+newop = load_so(std/int/print)
+newop.processor = "direct"
+newop < [load_type(std/int)]
+

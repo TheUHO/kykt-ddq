@@ -1,0 +1,12 @@
+// MSQ:由于call驱动无法得到返回值task_ret_done，这里的init执行结束后不会被析构
+// init和print交替改变a的状态，init和print都可以一直执行下去，解释成bug还是feature？
+init := load_op(std/int/init)
+print := load_op(std/int/print)
+sleep := load_op(std/time/sleep)
+init.once = TRUE // once属性表明init只执行一次
+
+[a] < init < [1000]
+
+print < [a]
+
+sleep < [1]

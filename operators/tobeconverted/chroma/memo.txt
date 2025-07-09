@@ -1,0 +1,26 @@
+
+关于MPI并行算子设计的思路笔记：
+
+在qmp/lib/QMP_init.c里定义了 QMP_comm_get_default() 函数，把它重命名为 QMP_comm_get_default_origin()，然后新建一个QMP_comm_get_default()函数，大概如下：
+
+
+// 这个定义照抄自processor_pthread_qmp_private.c
+typedef	struct
+{
+	int			magic;
+	struct QMP_comm_struct	comm;
+} found_in_stack;
+
+// 然后改写qmp的这个函数
+QMP_comm_t
+QMP_comm_get_default(void)
+{
+	char	* p;
+
+	for (p = (char *) &p; *(int *)p != 0x2badbeef; p++);	// TODO: 这里确认一下，应该是p++还是p--，另外确认一下会不会有未对齐的报错。
+								// 另外，是不是应该再加上些限定，比如查找1KB或者多远，太远了就不找了，返回原来的值。这样可以保证如果不是被ddq调用也能正确运行。
+
+	return	(struct QMP_comm_struct *)(p+(int)((found_in_stack)0)->comm);
+}
+
+

@@ -1,0 +1,4 @@
+newop = load_so(std/obj/file_export)
+newop.processor = "direct"
+newop < [load_type(std/str) load_type(std/obj)]
+

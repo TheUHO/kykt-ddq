@@ -1,0 +1,7 @@
+newop = load_op(utl/xml/node_str)
+
+[xml] < newop < ["FermionBC" "<FermBC>SIMPLE_FERMBC</FermBC> <boundary>1 1 1 -1</boundary>" t]
+
+t = 0
+t.consumable = TRUE
+

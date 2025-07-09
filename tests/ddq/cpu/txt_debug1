@@ -1,0 +1,1005 @@
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 5
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.005477 秒
+性能: 30.63 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.014947 秒
+性能: 11.22 GFLOPS
+物理核心数: 23
+openmp使用的线程数: 23
+Base openmp static并行测试运行时间: 0.052857 秒
+性能: 3.17 GFLOPS
+物理核心数: 23
+openmp使用的线程数: 23
+Base openmp_2 测试运行时间: 0.056149 秒
+性能: 2.99 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq占用空间: 2912 / 163840000
+Log at Line #477 of File 'ddq_loop.c : 'start iter #0.
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (0)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #0.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #1.
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #1.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #2.
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #2.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #3.
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #3.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #4.
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #4.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #5.
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #5.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #6.
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #6.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #7.
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #7.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #8.
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #8.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #9.
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #9.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #10.
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eba50	ptr = 29b6980	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebaa8	ptr = 2a36990	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebb00	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #10.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #11.
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb848	ptr = 2836950	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8a0	ptr = 28b6960	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb8f8	ptr = 2936970	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #11.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #12.
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb640	ptr = 26b6920	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb698	ptr = 2736930	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb6f0	ptr = 27b6940	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #12.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #13.
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb438	ptr = 25368f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb490	ptr = 25b6900	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb4e8	ptr = 2636910	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #13.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #14.
+OP:2b77611eb130 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 402f30	status = toread	
+	in[0] 	= 	OBJ:2b77611eb230	ptr = 23b68c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb288	ptr = 24368d0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2e0	ptr = 24b68e0	status = towrite	readers = (0/0)	writers = (1)
+OP:2b77611eb950 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b77611eb748 uid: 3 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b77611eb540 uid: 2 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b77611eb338 uid: 1 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #14.
+
+ddq_loop pthread_pool 测试运行时间: 0.008024 秒
+性能: 20.91 GFLOPS
+生成基于 CUDA 的 DAG 算子图
+Log at Line #477 of File 'ddq_loop.c : 'start iter #15.
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebf08	ptr = 29b6880	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebf60	ptr = 2a36890	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ec010	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ec068	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebfb8	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611ec0c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebbc8	ptr = 2836850	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebc20	ptr = 28b6860	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ebcd0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ebd28	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebc78	ptr = 2936870	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611ebd80	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #15.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #16.
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebbc8	ptr = 2836850	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebc20	ptr = 28b6860	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ebcd0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ebd28	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebc78	ptr = 2936870	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611ebd80	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebf08	ptr = 29b6880	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebf60	ptr = 2a36890	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ec010	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ec068	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebfb8	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ec0c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #16.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #17.
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebf08	ptr = 29b6880	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebf60	ptr = 2a36890	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ec010	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ec068	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebfb8	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ec0c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebbc8	ptr = 2836850	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebc20	ptr = 28b6860	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ebcd0	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ebd28	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebc78	ptr = 2936870	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ebd80	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #17.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #18.
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebf08	ptr = 29b6880	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebf60	ptr = 2a36890	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ec010	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ec068	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebfb8	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ec0c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebbc8	ptr = 2836850	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebc20	ptr = 28b6860	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ebcd0	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ebd28	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebc78	ptr = 2936870	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ebd80	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #18.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #19.
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (0)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (0)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebf08	ptr = 29b6880	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebf60	ptr = 2a36890	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ec010	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ec068	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebfb8	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ec0c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebbc8	ptr = 2836850	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebc20	ptr = 28b6860	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ebcd0	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ebd28	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebc78	ptr = 2936870	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ebd80	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #19.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #20.
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebf08	ptr = 29b6880	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebf60	ptr = 2a36890	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ec010	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ec068	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebfb8	ptr = 2b3b9c0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ec0c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebbc8	ptr = 2836850	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebc20	ptr = 28b6860	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ebcd0	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ebd28	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebc78	ptr = 2936870	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ebd80	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #20.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #21.
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611ebbc8	ptr = 2836850	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611ebc20	ptr = 28b6860	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611ebcd0	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611ebd28	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611ebc78	ptr = 2936870	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611ebd80	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #21.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #22.
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb888	ptr = 26b6820	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb8e0	ptr = 2736830	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb990	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb9e8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb938	ptr = 27b6840	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eba40	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #22.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #23.
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb548	ptr = 25367f0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb5a0	ptr = 25b6800	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb650	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb6a8	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb5f8	ptr = 2636810	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb700	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #23.
+
+Log at Line #477 of File 'ddq_loop.c : 'start iter #24.
+OP:2b77611eb0d8 uid: 0 status:1
+
+	f 	= 	OBJ:2b77611eb080	ptr = 404a70	status = toread	
+	in[0] 	= 	OBJ:2b77611eb208	ptr = 23b67c0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b77611eb260	ptr = 24367d0	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b77611eb310	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b77611eb368	ptr = 0	status = toalloc	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b77611eb2b8	ptr = 24b67e0	status = towrite	readers = (0/0)	writers = (1)
+	out[1] 	= 	OBJ:2b77611eb3c0	ptr = 0	status = toalloc	readers = (0/0)	writers = (1)
+OP:2b77611ebdd8 uid: 4 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+OP:2b77611eba98 uid: 3 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+OP:2b77611eb758 uid: 2 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+OP:2b77611eb418 uid: 1 status:1
+
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	in[2] 	= 	OBJ:NULL
+	in[3] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+	out[1] 	= 	OBJ:NULL
+Log at Line #482 of File 'ddq_loop.c : 'stop iter #24.
+
+ddq_loop_gpu 测试运行时间: 0.000000 秒
+性能: inf GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+矩阵 2 的元素 [0][0] 不一致: 6243.200000 != 31168.500000
+Base 和 ddq_loop_gpu 结果不一致。
+所有测试完成！

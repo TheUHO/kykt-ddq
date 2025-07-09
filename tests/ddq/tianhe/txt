@@ -1,0 +1,11 @@
+FILE_DAT is /thfs1/home/lzz/hanbin/DSQ/ddq_merge_master/ddq/compiled_tianhe3/etc/tianhe_kernel.dat
+A->p 0x890003000, B->p 0x8905eb000, C->p 0x890a6b000
+hthread_group_exec
+signals_gsm[0] = 1
+op_run_kernel begin 0
+kernel time : 0 613.686071 ms
+similarity cal ref: 3.628590, res: 12376.281230
+magnitudeA 16935162.554789, magnitudeB 7620.988770
+error!, similarity: 0.865566
+Ref runtime : 0.000003s, TH runtime : 0.614880s
+finish

@@ -1,0 +1,31 @@
+
+[source] < newop < [conf newop.pos newop.gaussian_size newop.gaussian_count newop.ape_size newop.ape_count]
+
+source = load_type(sci/lqcd/chroma/ferm/LatticePropagator)
+conf = load_type(sci/lqcd/chroma/gauge/LatticeColorMatrix)
+newop.pos = load_type(std/str)
+newop.gaussian_size = load_type(std/real)
+newop.gaussian_count = load_type(std/int)
+newop.ape_size = load_type(std/real)
+newop.ape_count = load_type(std/int)
+
+op = load_so(sci/lqcd/chroma/op_chroma/op_RunQuarkSourceConstruction)
+op.processor = "pthread_qmp"
+op.qmp = 4
+
+[source] < op < [input conf eLatticePropagator]
+eLatticePropagator = 1
+[input] < load_op(sci/lqcd/chroma/xml/PackGroupXML) < ["SHELL_SOURCE" "/Source" xml]
+[xml] < load_op(utl/xml/node) < ["Source" set]
+[set] < load_op(std/str/obj_cat) < [7 version type j pos param disp linksmear]
+[version] < load_op(utl/xml/node_int) < ["version" 2 t]
+[type] < load_op(utl/xml/node_str) < ["SourceType" "SHELL_SOURCE" t]
+[j] < load_op(utl/xml/node_int) < ["j_decay" 3 t]
+[pos] < load_op(utl/xml/node_str) < ["t_srce" newop.pos t]
+[param] < load_op(sci/lqcd/chroma/ferm/Smear_Gaussian) < [newop.gaussian_size newop.gaussian_count]
+[disp] < load_op(sci/lqcd/chroma/ferm/Disp_None)
+[linksmear] < load_op(sci/lqcd/chroma/gauge/Smear_APE) < [newop.ape_size newop.ape_count]
+
+t = 0
+t.consumable = TRUE
+

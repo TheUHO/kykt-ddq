@@ -1,0 +1,18 @@
+[conf] < newop
+conf = load_type(sci/lqcd/chroma/gauge/LatticeColorMatrix)
+
+op = load_so(sci/lqcd/chroma/op_chroma/op_LoadConfig)
+op.processor = "pthread_qmp"
+op.qmp = 1
+
+[conf] < op < [input] < load_op(sci/lqcd/chroma/xml/PackGroupXML) < ["Cfg" "/Cfg" xml]
+[xml] < load_op(utl/xml/node) < ["Cfg" cfg]
+[cfg] < load_op(std/str/obj_cat) < [2 type file]
+[type] < load_op(utl/xml/node_str) < ["cfg_type" "WEAK_FIELD" t]
+[file] < load_op(utl/xml/node_str) < ["cfg_file" "dummy" t]
+
+//load_op(utl/xml/print) < [xml]
+
+t = 0
+t.consumable = TRUE
+

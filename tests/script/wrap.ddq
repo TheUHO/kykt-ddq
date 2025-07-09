@@ -1,0 +1,17 @@
+[out1 out2] < newop < [f in1 in2]
+
+// 用dup把局部变量包装起来：
+out1 ~ o1
+[out1] < load_op(std/noop) < [o1]
+out2 ~ o2
+[out2] < load_op(std/noop) < [o2]
+i1 ~ in1
+[i1] < load_op(std/noop) < [in1 test]
+i2 ~ in2
+[i2] < load_op(std/noop) < [in2 test]
+
+[test] < load_op(std/int/lessthan) < [in2 1000]
+
+// 实际的函数内容：
+[o1 o2] < f < [i1 i2]
+

@@ -1,0 +1,6 @@
+// 我们可以看到打印的2和3顺序反了，1000以后多打印了3个数，最后一个跳了一步。这些都是异步运行的特点，不是bug，需要小心处理并加以利用。
+load_op(std/int/print) < [a] < load_op(std/int/copy) < [c] < load_op(std/int/add) < [a b]
+load_op(std/int/print) < [b] < load_op(std/int/add) < [b c]
+[a] < load_op(std/int/init) < [1]
+[b] < load_op(std/int/init) < [1]
+

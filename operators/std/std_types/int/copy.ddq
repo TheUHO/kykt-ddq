@@ -1,0 +1,5 @@
+// 临时用于测试
+newop = load_so(std/int/copy)
+newop.processor = "direct"
+[load_type(std/int)] < newop < [load_type(std/int)]
+

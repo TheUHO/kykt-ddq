@@ -1,0 +1,8 @@
+newop = load_builtin(str2obj)
+newop.processor = "direct"
+
+[out] < newop < [in]
+
+out = load_type(std/mem)
+in = load_type(std/str)
+

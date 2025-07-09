@@ -1,0 +1,2 @@
+newtype.del = load_builtin(del_str)
+

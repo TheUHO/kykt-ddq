@@ -1,0 +1,16 @@
+[xml] < newop < [kappa aniso]
+
+xml = load_type(sci/lqcd/chroma/xml/GroupXML)
+kappa = load_type(std/real)
+aniso = load_type(std/mem)
+
+[xml] < load_op(sci/lqcd/chroma/xml/PackGroupXML) < ["WILSON" "/FermionAction" action]
+[action] < load_op(utl/xml/node) < ["FermionAction" set]
+[set] < load_op(std/str/obj_cat) < [4 act kap aniso bc]
+[act] < load_op(utl/xml/node_str) < ["FermAct" "WILSON" t]
+[kap] < load_op(utl/xml/node_real) < ["Kappa" kappa t]
+[bc] < load_op(sci/lqcd/chroma/ferm/Boundary_Simple)
+
+t = 0
+t.consumable = TRUE
+

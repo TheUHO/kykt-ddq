@@ -1,0 +1,12 @@
+
+newop < [corr filename]
+
+corr = load_type(sci/lqcd/chroma/corr/Corr2pt)
+filename = load_type(std/str)
+
+op < [corr type filename]
+op = load_so(sci/lqcd/chroma/op_chroma/op_WriteMulti2d)
+op.processor = "pthread_qmp"
+op.qmp = 7
+type = 1	// eDComplex
+

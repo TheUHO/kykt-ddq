@@ -1,0 +1,34 @@
+include "../objlib/types.ddq"
+def op_add : Op<C_Op> {
+    let description = {
+       " The op adds two long operands to obtain the result.
+        inputs:
+            int_t operand0;
+            int_t operand1;
+        outputs:
+            int_t result;"
+    }
+
+    let inputs = {
+        int_t operand0;
+        int_t operand1;
+    }
+
+    let outputs = {
+        int_t result;
+    }
+
+    let processors = {
+        direct;
+        cuda;
+        fork;
+    }
+
+    let loadmode = {
+        oplib_dl;
+    }
+
+    let loadpath = {
+        op_tests.op_tests.op_add;
+    }
+}

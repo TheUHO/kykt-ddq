@@ -1,0 +1,4 @@
+newop = load_so(std/real/div)
+newop.processor = "direct"
+[load_type(std/real)] < newop < [load_type(std/real) load_type(std/real)]
+

@@ -1,0 +1,77 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index d0ca103..76dff45 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -33,7 +33,7 @@ option(QMP_BGQ "Enable BlueGene/Q Personality to set native machine geometry" OF
+ option(QMP_BGSPI "Enable BlueGene SPI" OFF)
+ 
+ # --enable-testing
+-option(QMP_TESTING "Enable buidling of the examples" ON)
++option(QMP_TESTING "Enable buidling of the examples" OFF)
+ 
+ # Enable Address address and undefined behaviour sanitizers
+ option(QMP_ENABLE_SANITIZERS "Enable Address and Undefined Behaviour Sanitizers" OFF)
+diff --git a/include/qmp.h b/include/qmp.h
+index ed526ef..af3a7fc 100644
+--- a/include/qmp.h
++++ b/include/qmp.h
+@@ -286,7 +286,7 @@ extern QMP_status_t QMP_comm_set_job(QMP_comm_t comm);
+  * Get the default communicator.
+  */
+ extern QMP_comm_t QMP_comm_get_default(void);
+-
++extern QMP_comm_t QMP_comm_get_default_origin(void);
+ /**
+  * Set the default communicator.
+  */
+diff --git a/lib/QMP_init.c b/lib/QMP_init.c
+index 9038273..0b657f2 100644
+--- a/lib/QMP_init.c
++++ b/lib/QMP_init.c
+@@ -5,6 +5,9 @@
+ #include <unistd.h>
+ #include <ctype.h>
+ #include <stdarg.h>
++#include <stddef.h>
++
++#include <pthread.h>		// for ddq
+ 
+ #include "QMP_P_COMMON.h"
+ 
+@@ -79,13 +82,35 @@ QMP_comm_set_job(QMP_comm_t comm)
+  * Get the default communicator.
+  */
+ QMP_comm_t
+-QMP_comm_get_default(void)
++QMP_comm_get_default_origin(void)
+ {
+   ENTER;
+   LEAVE;
+   return QMP_default_comm;
+ }
+ 
++extern pthread_key_t	ddq_pthread_data;
++QMP_comm_t
++QMP_comm_get_default(void)
++{
++	ENTER;
++	LEAVE;
++
++	QMP_comm_t	res;
++
++	if ((res = pthread_getspecific(ddq_pthread_data)) == NULL)
++	{
++		//printf("DDQ comm not found.\n");
++		return	QMP_comm_get_default_origin();
++	}
++	else
++	{
++		//printf("DDQ comm found.\n");
++		return	res;
++	}
++
++}
++
+ /**
+  * Set the default communicator.
+  */

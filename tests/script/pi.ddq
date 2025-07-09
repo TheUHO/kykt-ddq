@@ -1,0 +1,22 @@
+load_op(std/real/print) < [pi] < load_op(std/real/add) < [pi term]
+
+[term] < load_op(std/real/mul4) < [s ia ib ic]
+
+[s] < load_op(std/real/mul) < [s -1.0]
+
+[ia] < load_op(std/real/div) < [1.0 a]
+[ib] < load_op(std/real/div) < [1.0 b]
+[ic] < load_op(std/real/div) < [1.0 c]
+
+[a] < load_op(std/real/add) < [a 2.0]
+[b] < load_op(std/real/add) < [b 2.0]
+[c] < load_op(std/real/add) < [c 2.0]
+
+[pi] < load_op(std/real/init) < [3.0]
+[s] < load_op(std/real/init) < [4.0]
+[a] < load_op(std/real/init) < [2.0]
+[b] < load_op(std/real/init) < [3.0]
+[c] < load_op(std/real/init) < [4.0]
+
+load_op(std/time/sleep) < [1]
+

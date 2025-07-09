@@ -1,0 +1,19 @@
+[conf] < newop < [filename]
+conf = load_type(sci/lqcd/chroma/gauge/LatticeColorMatrix)
+filename = load_type(std/str)
+
+op = load_so(sci/lqcd/chroma/op_chroma/op_LoadConfig)
+op.processor = "pthread_qmp"
+op.qmp = 2
+
+[conf] < op < [input] < load_op(sci/lqcd/chroma/xml/PackGroupXML) < ["Cfg" "/Cfg" xml]
+[xml] < load_op(utl/xml/node) < ["Cfg" cfg]
+[cfg] < load_op(std/str/obj_cat) < [2 type file]	// 可选para reun
+[type] < load_op(utl/xml/node_str) < ["cfg_type" "SZINQIO" t]
+[file] < load_op(utl/xml/node_str) < ["cfg_file" filename t]
+// [para] < load_op(utl/xml/node_str) < ["parallel_io" "true" t]
+// [reun] < load_op(utl/xml/node_str) < ["reunit" "false" t]
+
+t = 0
+t.consumable = TRUE
+

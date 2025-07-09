@@ -1,0 +1,6 @@
+newtype.new = load_builtin(new_real)
+newtype.del = load_builtin(del_real)
+newtype.ser = load_builtin(op_ser_real)
+newtype.deser = load_builtin(op_deser_real)
+newtype.size = 8
+

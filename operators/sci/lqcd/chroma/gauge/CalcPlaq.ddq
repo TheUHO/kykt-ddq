@@ -1,0 +1,9 @@
+newop = load_so(sci/lqcd/chroma/op_chroma/op_MesPlq)
+newop.processor = "pthread_qmp"
+newop.qmp = 3
+
+newop < [conf]
+conf = load_type(sci/lqcd/chroma/gauge/LatticeColorMatrix)
+
+// 计算结果输出在chroma/Initialize指定的输出xml文件里
+

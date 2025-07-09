@@ -1,0 +1,12 @@
+load_op(std/int/print) < [a]
+load_op(std/int/print) < [b]
+[a] < load_op(std/int/init) < [1]
+[b] < load_op(std/int/init) < [1]
+
+[a b] < load_op(wrap) < [f a b]
+
+[o1 o2] < f < [i1 i2]
+[o1] < load_op(std/int/add) < [i1 i2]
+[o2] < load_op(std/int/add) < [o1 i2]
+
+

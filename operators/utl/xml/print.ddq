@@ -1,0 +1,7 @@
+newop = load_builtin(obj_print)
+newop.processor = "direct"
+
+newop < [str]
+
+str = load_type(std/mem)
+

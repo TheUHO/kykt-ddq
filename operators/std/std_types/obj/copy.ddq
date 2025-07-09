@@ -1,0 +1,4 @@
+newop = load_so(std/obj/copy)
+newop.processor = "direct"
+[load_type(std/obj)] < newop < [load_type(std/obj)]
+

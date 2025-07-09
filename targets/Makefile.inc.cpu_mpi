@@ -1,0 +1,15 @@
+
+export processors=direct fork pthread pthread_mpi
+
+export oplibs=so
+
+export operators=common fileio cmdline zmq memcpy tests/fib
+
+export CFLAGS=-O2 -fPIC -pthread -I${pathpref}/common -I${pathpref}/ddq $(foreach i, $(processors), -Denable_processor_$(i))
+
+export CC=mpicc
+
+
+all	:	compile install
+
+

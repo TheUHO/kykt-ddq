@@ -1,0 +1,4 @@
+load_op(std/real/print) < [3.0]
+
+load_op(std/time/sleep) < [1]
+

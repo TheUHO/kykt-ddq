@@ -1,0 +1,3 @@
+load_op(std/int/print) < [a] < load_op(std/int/add) < [b c]
+[b] < load_op(std/int/init) < [3]
+[c] < load_op(std/int/init) < [5]

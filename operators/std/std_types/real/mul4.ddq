@@ -1,0 +1,6 @@
+// 临时用于测试
+[s] < newop < [a b c d]
+[s] < load_op(std/real/mul) < [abc d]
+[abc] < load_op(std/real/mul) < [ab c]
+[ab] < load_op(std/real/mul) < [a b]
+

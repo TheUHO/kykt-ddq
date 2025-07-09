@@ -1,0 +1,6 @@
+newtype.new = load_builtin(new_int)
+newtype.del = load_builtin(del_int)
+newtype.ser = load_builtin(op_ser_int)
+newtype.deser = load_builtin(op_deser_int)
+newtype.size = 4
+

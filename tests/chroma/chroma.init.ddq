@@ -1,0 +1,2 @@
+load_op(sci/lqcd/chroma/Initialize) < [8 8 8 8 9 "-geom" "1" "1" "2" "2" "-o" "test.out.xml" "-l" "test.log.xml"]
+

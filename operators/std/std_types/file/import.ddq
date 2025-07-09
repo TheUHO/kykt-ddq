@@ -1,0 +1,6 @@
+newop = load_so(std/obj/file_import)
+newop.processor = "direct"
+[file] < newop < [load_type(std/str)]
+file = load_type(std/mem)
+file.nodel = TRUE
+

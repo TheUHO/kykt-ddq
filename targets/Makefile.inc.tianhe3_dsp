@@ -1,0 +1,27 @@
+
+export processors=direct
+
+export operators=tianhe_kernel cache_tianhe
+
+M3000_ENV=/thfs1/software/programming_env/mt3000_programming_env
+HTHREAD_HOME=${M3000_ENV}/hthreads
+DSP_CC_HOME=${M3000_ENV}/dsp_compiler
+LIBMT_HOME=${M3000_ENV}/libmt
+
+export LD_LIBRARY_PATH=${M3000_ENV}/third-party-lib:$LD_LIBRARY_PATH
+
+export CC=${DSP_CC_HOME}/bin/MT-3000-gcc
+export LD=${DSP_CC_HOME}/bin/MT-3000-ld
+export MAKEDAT=${DSP_CC_HOME}/bin/MT-3000-makedat
+
+export CFLAGS=-O3 -fenable-m3000 -ffunction-sections -flax-vector-conversions -I${pathpref}/common -I${pathpref}/ddq -I${HTHREAD_HOME}/include -I${DSP_CC_HOME}/include $(foreach i, $(processors), -Denable_processor_$(i)) -Denable_processor_dsp -fPIC
+export LDFLAGS=-L$(HTHREAD_HOME)/lib -Tdsp.lds -lhthread_device ${DSP_CC_HOME}/lib/vlib3000.a ${DSP_CC_HOME}/lib/slib3000.a
+
+
+all	:	compile install_tianhe3_dsp
+
+install_tianhe3_dsp	:	compile
+	$(LD) -o compiled/operators_$(target)/op_tianhe_kernel.out ddq/ddq.o $(foreach i, $(operators), operators/op_$(i)/*.o) $(foreach i, $(processors), processors/processor_$(i)/processor_$(i)_private.o) $(LDFLAGS)
+	$(MAKEDAT) -J compiled/operators_$(target)/op_tianhe_kernel.out
+
+

@@ -1,0 +1,3 @@
+newop = load_so(sci/lqcd/chroma/op_chroma/op_ChromaFinalize)
+newop.processor = "direct"
+

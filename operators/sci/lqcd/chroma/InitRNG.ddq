@@ -1,0 +1,8 @@
+newop = load_so(sci/lqcd/chroma/op_chroma/op_InitRNG)
+newop.processor = "pthread_qmp"
+newop < [RSeed1 RSeed2 RSeed3 RSeed4]
+RSeed1 = load_type(std/int)
+RSeed2 = load_type(std/int)
+RSeed3 = load_type(std/int)
+RSeed4 = load_type(std/int)
+

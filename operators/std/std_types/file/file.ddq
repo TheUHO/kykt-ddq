@@ -1,0 +1,3 @@
+newtype.new = load_builtin(new_mem_file)
+newtype.del = load_builtin(del_mem)
+

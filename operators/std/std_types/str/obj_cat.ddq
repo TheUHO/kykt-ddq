@@ -1,0 +1,8 @@
+newop = load_builtin(obj_cat)
+newop.processor = "direct"
+
+[out] < newop < [n]	// 输入列表随后是被连接的所有obj，n是它们的个数
+
+out = load_type(std/mem)
+n = load_type(std/int)
+

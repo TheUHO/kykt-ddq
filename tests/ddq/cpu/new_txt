@@ -1,0 +1,1518 @@
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.331905 秒
+性能: 101.10 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.014454 秒
+性能: 33.08 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 1.096753 秒
+性能: 30.59 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.129464 秒
+性能: 29.71 GFLOPS
+Base 和 ddq_loop 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 2000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.518228 秒
+性能: 64.75 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.020973 秒
+性能: 32.87 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 1.124286 秒
+性能: 29.85 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.113076 秒
+性能: 30.15 GFLOPS
+Base 和 ddq_loop 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 2000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.340505 秒
+性能: 98.54 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.103151 秒
+性能: 30.42 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.932303 秒
+性能: 35.99 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.195018 秒
+性能: 28.08 GFLOPS
+Base 和 ddq_loop 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 2000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.330400 秒
+性能: 101.56 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.111888 秒
+性能: 30.18 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 1.587184 秒
+性能: 21.14 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.189699 秒
+性能: 28.20 GFLOPS
+Base 和 ddq_loop 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 2000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.325360 秒
+性能: 103.13 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.103515 秒
+性能: 30.41 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 1.576570 秒
+性能: 21.28 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.109276 秒
+性能: 30.25 GFLOPS
+Base 和 ddq_loop 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 2000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 1.063722 秒
+性能: 31.54 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.130364 秒
+性能: 29.68 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.093797 秒
+性能: 357.74 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 2000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 1.070282 秒
+性能: 31.35 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.353957 秒
+性能: 24.78 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.143836 秒
+性能: 233.28 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.190981 秒
+性能: 28.17 GFLOPS
+Base 和 ddq_loop 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 2000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.685616 秒
+性能: 48.94 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.094801 秒
+性能: 30.65 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.098659 秒
+性能: 340.10 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.102821 秒
+性能: 30.43 GFLOPS
+Base 和 ddq_loop 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.407330 秒
+性能: 82.38 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.100605 秒
+性能: 30.49 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.142233 秒
+性能: 235.91 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.181617 秒
+性能: 28.40 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.441010 秒
+性能: 76.09 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.068232 秒
+性能: 31.41 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.134263 秒
+性能: 249.92 GFLOPS
+OpenBLAS 使用的线程数: 1
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.374167 秒
+性能: 89.68 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.102095 秒
+性能: 30.45 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.087789 秒
+性能: 382.22 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.195668 秒
+性能: 28.06 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.341633 秒
+性能: 98.22 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.100593 秒
+性能: 30.49 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 1.713473 秒
+性能: 19.58 GFLOPS
+OpenBLAS 使用的线程数: 1
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+//24-10
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.682089 秒
+性能: 49.19 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.018292 秒
+性能: 32.95 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.187016 秒
+性能: 179.42 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.111965 秒
+性能: 30.18 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+//24-20
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.345862 秒
+性能: 97.02 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.102555 秒
+性能: 30.43 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 1.410632 秒
+性能: 23.79 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.112729 秒
+性能: 30.16 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.881233 秒
+性能: 38.08 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.275349 秒
+性能: 26.31 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 1.151420 秒
+性能: 29.14 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.190091 秒
+性能: 28.19 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.351447 秒
+性能: 95.47 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.094997 秒
+性能: 30.64 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.086681 秒
+性能: 387.10 GFLOPS
+OpenBLAS 使用的线程数: 1
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 499500
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.343038 秒
+性能: 97.82 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.084794 秒
+性能: 30.93 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.990782 秒
+性能: 33.87 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 9.296841 秒
+性能: 3.61 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 499500
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.352245 秒
+性能: 95.26 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.174072 秒
+性能: 28.58 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.887694 秒
+性能: 37.80 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 9.790211 秒
+性能: 3.43 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 10000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.350648 秒
+性能: 95.69 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.119501 秒
+性能: 29.97 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.148183 秒
+性能: 226.44 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.191541 秒
+性能: 28.16 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 1000
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.334909 秒
+性能: 100.19 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.096189 秒
+性能: 30.61 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.086247 秒
+性能: 389.05 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.104084 秒
+性能: 30.39 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.339173 秒
+性能: 98.93 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.097111 秒
+性能: 30.58 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.156022 秒
+性能: 215.06 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.207265 秒
+性能: 27.79 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 100
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.287229 秒
+性能: 93.46 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 0.748701 秒
+性能: 35.85 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.084341 秒
+性能: 318.28 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 0.880889 秒
+性能: 30.47 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 100
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.289802 秒
+性能: 92.63 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 0.746909 秒
+性能: 35.94 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.081947 秒
+性能: 327.57 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 0.884952 秒
+性能: 30.33 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 24
+Base 测试运行时间: 0.360645 秒
+性能: 93.04 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.102647 秒
+性能: 30.43 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.084682 秒
+性能: 396.24 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.236699 秒
+性能: 27.13 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 0.781234 秒
+性能: 42.95 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.193807 秒
+性能: 28.11 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.085679 秒
+性能: 391.63 GFLOPS
+OpenBLAS 使用的线程数: 1
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+BLAS : Program is>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 0.231081 秒
+性能: 145.21 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.101872 秒
+性能: 30.45 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.105532 秒
+性能: 317.95 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.097185 秒
+性能: 30.58 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 0.226979 秒
+性能: 147.83 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 1.104533 秒
+性能: 30.38 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.088990 秒
+性能: 377.06 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop 测试运行时间: 1.099002 秒
+性能: 30.53 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 1.182007 秒
+性能: 28.39 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 1.521244 秒
+性能: 176.46 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 7.548486 秒
+性能: 35.56 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.468350 秒
+性能: 573.15 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 1.451640 秒
+性能: 184.92 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 7.537546 秒
+性能: 35.61 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.487798 秒
+性能: 550.30 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 1.445564 秒
+性能: 185.70 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 7.535066 秒
+性能: 35.62 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.529217 秒
+性能: 507.23 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.517549 秒
+性能: 518.67 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 1.242668 秒
+性能: 216.02 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 7.548176 秒
+性能: 35.56 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.517142 秒
+性能: 519.08 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.506435 秒
+性能: 530.05 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 10000
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 1.419493 秒
+性能: 189.11 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 7.709375 秒
+性能: 34.82 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.596727 秒
+性能: 449.85 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.613853 秒
+性能: 437.30 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 10000
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 2.469302 秒
+性能: 108.71 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 8.563414 秒
+性能: 31.35 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.770253 秒
+性能: 348.50 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.601023 秒
+性能: 446.63 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 10000
+边数: 10000
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 9.178692 秒
+性能: 36.56 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 10.845144 秒
+性能: 30.94 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.973346 秒
+性能: 344.73 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.891761 秒
+性能: 376.27 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 1024 x 1024
+节点数: 3000
+边数: 2249250
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 61.784747 秒
+性能: 104.27 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 191.282770 秒
+性能: 33.68 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 136.968715 秒
+性能: 47.04 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 145.536251 秒
+性能: 44.27 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 1024 x 1024
+节点数: 3000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 61.338970 秒
+性能: 105.03 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 197.893643 秒
+性能: 32.56 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 1024 x 1024
+节点数: 3000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 60.724693 秒
+性能: 106.09 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 4.887046 秒
+性能: 54.93 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 7.724759 秒
+性能: 34.75 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.488539 秒
+性能: 549.47 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 5.064614 秒
+性能: 53.00 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 8.034761 秒
+性能: 33.41 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.591527 秒
+性能: 453.80 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 4.802544 秒
+性能: 55.89 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 7.807203 秒
+性能: 34.38 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.522477 秒
+性能: 513.78 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 23
+Base 测试运行时间: 5.153522 秒
+性能: 52.09 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 7.683988 秒
+性能: 34.93 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.505453 秒
+性能: 531.08 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.461821 秒
+性能: 581.25 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 9.680236 秒
+性能: 27.73 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 7.085804 秒
+性能: 37.88 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 7.657829 秒
+性能: 35.05 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.454424 秒
+性能: 590.72 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.520808 秒
+性能: 515.42 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 100
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.773991 秒
+性能: 34.68 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.379694 秒
+性能: 70.70 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 0.783973 秒
+性能: 34.24 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.096399 秒
+性能: 278.46 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.096175 秒
+性能: 279.11 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 1024 x 1024
+节点数: 100
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 6.502436 秒
+性能: 33.03 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.709121 秒
+性能: 302.84 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 5.807868 秒
+性能: 36.98 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.432754 秒
+性能: 496.24 GFLOPS
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.694808 秒
+性能: 35.54 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.353880 秒
+性能: 69.79 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 0.714176 秒
+性能: 34.58 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.096553 秒
+性能: 255.78 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.051670 秒
+性能: 477.96 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.709949 秒
+性能: 34.79 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.108418 秒
+性能: 227.79 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 0.718219 秒
+性能: 34.39 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.058175 秒
+性能: 424.52 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.055083 秒
+性能: 448.35 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.720274 秒
+性能: 34.29 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.362281 秒
+性能: 68.17 GFLOPS
+物理核心数: 24
+OpenBLAS 使用的线程数: 1
+Base 并行测试运行时间: 0.794486 秒
+性能: 31.08 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.055990 秒
+性能: 441.08 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.054116 秒
+性能: 456.35 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.735362 秒
+性能: 33.58 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.200118 秒
+性能: 123.41 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 0.760717 秒
+性能: 32.46 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.055027 秒
+性能: 448.80 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.050684 秒
+性能: 487.25 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.700016 秒
+性能: 35.28 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.180138 秒
+性能: 137.10 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+Base openmp static并行测试运行时间: 0.689760 秒
+性能: 35.80 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.049454 秒
+性能: 499.37 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.080976 秒
+性能: 304.98 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.719429 秒
+性能: 34.33 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.352688 秒
+性能: 70.02 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+使用的线程数: 24
+Base openmp static并行测试运行时间: 0.781374 秒
+性能: 31.61 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.054125 秒
+性能: 456.28 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.047238 秒
+性能: 522.80 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.696041 秒
+性能: 35.48 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.106928 秒
+性能: 230.96 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+openmp使用的线程数: 24
+Base openmp static并行测试运行时间: 0.686003 秒
+性能: 36.00 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.069818 秒
+性能: 353.72 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.046701 秒
+性能: 528.82 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.694005 秒
+性能: 35.58 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.132972 秒
+性能: 185.72 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+openmp使用的线程数: 24
+Base openmp static并行测试运行时间: 0.687124 秒
+性能: 35.94 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.060589 秒
+性能: 407.60 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.044536 秒
+性能: 554.51 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 92
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.695127 秒
+性能: 35.53 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.101742 秒
+性能: 242.73 GFLOPS
+物理核心数: 23
+OpenBLAS 使用的线程数: 1
+openmp使用的线程数: 24
+Base openmp static并行测试运行时间: 0.738489 秒
+性能: 33.44 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.056652 秒
+性能: 435.93 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.045940 秒
+性能: 537.58 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 7.509917 秒
+性能: 35.74 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 1.218501 秒
+性能: 220.30 GFLOPS
+物理核心数: 23
+openmp使用的线程数: 23
+Base openmp static并行测试运行时间: 0.426744 秒
+性能: 629.03 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.399751 秒
+性能: 671.51 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.424309 秒
+性能: 632.64 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 512 x 512
+节点数: 1000
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 7.548212 秒
+性能: 35.56 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 1.399922 秒
+性能: 191.75 GFLOPS
+物理核心数: 23
+openmp使用的线程数: 23
+Base openmp static并行测试运行时间: 0.419672 秒
+性能: 639.63 GFLOPS
+物理核心数: 23
+openmp使用的线程数: 23
+Base openmp_2 测试运行时间: 0.439930 秒
+性能: 610.18 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop pthread_pool 测试运行时间: 0.412884 秒
+性能: 650.15 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq_loop_old 测试运行时间: 0.445753 秒
+性能: 602.21 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！

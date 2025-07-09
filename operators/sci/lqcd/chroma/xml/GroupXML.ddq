@@ -1,0 +1,3 @@
+newtype.new = load_so(sci/lqcd/chroma/op_chroma/new_GroupXML_t)
+newtype.del = load_so(sci/lqcd/chroma/op_chroma/delete_GroupXML_t)
+

@@ -1,0 +1,5 @@
+[o1 o2] < newop < [i1 i2]
+
+[o1] < load_op(std/int/add) < [i1 i2]
+[o2] < load_op(std/int/add) < [o1 i2]
+

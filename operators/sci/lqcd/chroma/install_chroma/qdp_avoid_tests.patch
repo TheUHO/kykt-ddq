@@ -1,0 +1,17 @@
+diff --git a/examples/CMakeLists.txt b/examples/CMakeLists.txt
+index 437411b1..6a6b51ff 100644
+--- a/examples/CMakeLists.txt
++++ b/examples/CMakeLists.txt
+@@ -56,8 +56,8 @@ if( QDP_USE_SSE )
+ endif()
+ 
+ foreach(TEST ${TESTS})
+- add_executable(${TEST} ${TEST}.cc)
+- target_link_libraries(${TEST} examples)
++ # add_executable(${TEST} ${TEST}.cc)
++ # target_link_libraries(${TEST} examples)
+ endforeach()
+ 
+-install(TARGETS nersc2ildg test_ildglat lhpc2ildg)
+\ No newline at end of file
++# install(TARGETS nersc2ildg test_ildglat lhpc2ildg)

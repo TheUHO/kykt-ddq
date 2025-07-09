@@ -1,0 +1,19 @@
+
+[prop] < newop < [source newop.conf newop.action newop.inverter]
+
+prop = load_type(sci/lqcd/chroma/ferm/LatticePropagator)
+source = load_type(sci/lqcd/chroma/ferm/LatticePropagator)
+newop.conf = load_type(sci/lqcd/chroma/gauge/LatticeColorMatrix)
+newop.action = load_type(sci/lqcd/chroma/xml/GroupXML)
+newop.inverter = load_type(sci/lqcd/chroma/xml/GroupXML)
+
+op = load_so(sci/lqcd/chroma/op_chroma/op_DoInlinePropagatorInverter)
+op.processor = "pthread_qmp"
+op.qmp = 5
+
+[prop] < op < [source newop.conf eLatticePropagator newop.action newop.inverter t0 j_decay]
+
+eLatticePropagator = 1
+t0 = 0
+j_decay = 3
+

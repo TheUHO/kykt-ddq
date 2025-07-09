@@ -1,0 +1,11 @@
+//load_op(utl/cmdline/sh) < ["ls"]
+//a="sh"
+//a.consumable = TRUE
+
+//load_op(std/file/export) < ["t_b.txt" b]
+//[b] < load_op(std/obj/copy) < [a] < load_op(std/file/import) < ["t_a.txt"]
+
+load_op(std/file/export) < ["t_b.txt" b]
+b = load_type(std/mem)
+[b] < load_op(std/obj/copy) < [a] < load_op(std/file/import) < ["t_a.txt"]
+

@@ -1,0 +1,4 @@
+newop = load_so(std/int/lessthan)
+newop.processor = "direct"
+[load_type(std/dummy)] < newop < [load_type(std/int) load_type(std/int)]
+

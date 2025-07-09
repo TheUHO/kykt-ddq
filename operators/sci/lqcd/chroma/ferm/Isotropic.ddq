@@ -1,0 +1,7 @@
+newop = load_op(utl/xml/node_str)
+
+[xml] < newop < ["AnisoParam" "<anisoP>false</anisoP> <t_dir>3</t_dir> <xi_0>1.0</xi_0> <nu>1.0</nu>" t]
+
+t = 0
+t.consumable = TRUE
+

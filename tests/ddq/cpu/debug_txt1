@@ -1,0 +1,2542 @@
+>>>>>>>>>>>>>>>>>>>>>>
+测试开始...
+矩阵规模: 256 x 256
+节点数: 10
+边数: 0
+OpenBLAS 使用的线程数: 1
+Base单线程 测试运行时间: 0.010450 秒
+性能: 32.11 GFLOPS
+OpenBLAS 使用的线程数: 23
+Base(openblas内部多线程) 测试运行时间: 0.031180 秒
+性能: 10.76 GFLOPS
+物理核心数: 23
+openmp使用的线程数: 23
+Base openmp static并行测试运行时间: 0.025495 秒
+性能: 13.16 GFLOPS
+物理核心数: 23
+openmp使用的线程数: 23
+Base openmp_2 测试运行时间: 0.038166 秒
+性能: 8.79 GFLOPS
+OpenBLAS 使用的线程数: 1
+ddq占用空间: 6096 / 163840000
+ddq_loop() : op->uid = 10
+ddq_loop() : prev_op->uid = 0
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #0.
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/0)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/0)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/0)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/0)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/0)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/0)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/0)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/0)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/0)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/0)	writers = (0)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #0.
+
+ddq_loop() : op->uid = 9
+ddq_loop() : prev_op->uid = 10
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #1.
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #1.
+
+ddq_loop() : op->uid = 8
+ddq_loop() : prev_op->uid = 9
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #2.
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #2.
+
+ddq_loop() : op->uid = 7
+ddq_loop() : prev_op->uid = 8
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #3.
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #3.
+
+ddq_loop() : op->uid = 6
+ddq_loop() : prev_op->uid = 7
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #4.
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #4.
+
+ddq_loop() : op->uid = 5
+ddq_loop() : prev_op->uid = 6
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #5.
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #5.
+
+ddq_loop() : op->uid = 4
+ddq_loop() : prev_op->uid = 5
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #6.
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #6.
+
+ddq_loop() : op->uid = 3
+ddq_loop() : prev_op->uid = 4
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #7.
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #7.
+
+ddq_loop() : op->uid = 2
+ddq_loop() : prev_op->uid = 3
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #8.
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #8.
+
+ddq_loop() : op->uid = 1
+ddq_loop() : prev_op->uid = 2
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #9.
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #9.
+
+ddq_loop() : op->uid = 0
+ddq_loop() : prev_op->uid = 1
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #10.
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/0)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/0)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #10.
+
+ddq_loop() : op->uid = 10
+ddq_loop() : prev_op->uid = 0
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #11.
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #11.
+
+ddq_loop() : op->uid = 9
+ddq_loop() : prev_op->uid = 0
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #12.
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #12.
+
+ddq_loop() : op->uid = 8
+ddq_loop() : prev_op->uid = 9
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #13.
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #13.
+
+ddq_loop() : op->uid = 7
+ddq_loop() : prev_op->uid = 8
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #14.
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #14.
+
+ddq_loop() : op->uid = 6
+ddq_loop() : prev_op->uid = 7
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #15.
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #15.
+
+ddq_loop() : op->uid = 5
+ddq_loop() : prev_op->uid = 6
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #16.
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #16.
+
+ddq_loop() : op->uid = 4
+ddq_loop() : prev_op->uid = 5
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #17.
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #17.
+
+ddq_loop() : op->uid = 3
+ddq_loop() : prev_op->uid = 4
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #18.
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #18.
+
+ddq_loop() : op->uid = 2
+ddq_loop() : prev_op->uid = 3
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #19.
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #19.
+
+ddq_loop() : op->uid = 1
+ddq_loop() : prev_op->uid = 2
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #20.
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #20.
+
+ddq_loop() : op->uid = 0
+ddq_loop() : prev_op->uid = 1
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #21.
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #21.
+
+ddq_loop() : op->uid = 9
+ddq_loop() : prev_op->uid = 0
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 0 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #22.
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441478	ptr = 1d85f30	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344414d0	ptr = 1e05f40	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #22.
+
+ddq_loop() : op->uid = 8
+ddq_loop() : prev_op->uid = 9
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #23.
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441270	ptr = 1c05f00	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344412c8	ptr = 1c85f10	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = towrite	readers = (0/1)	writers = (1)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #23.
+
+ddq_loop() : op->uid = 7
+ddq_loop() : prev_op->uid = 8
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #24.
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234441068	ptr = 1a85ed0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344410c0	ptr = 1b05ee0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = towrite	readers = (0/1)	writers = (1)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #24.
+
+ddq_loop() : op->uid = 6
+ddq_loop() : prev_op->uid = 7
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #25.
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440e60	ptr = 1905ea0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440eb8	ptr = 1985eb0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = towrite	readers = (0/1)	writers = (1)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #25.
+
+ddq_loop() : op->uid = 5
+ddq_loop() : prev_op->uid = 6
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #26.
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440c58	ptr = 1785e70	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440cb0	ptr = 1805e80	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = towrite	readers = (0/1)	writers = (1)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #26.
+
+ddq_loop() : op->uid = 4
+ddq_loop() : prev_op->uid = 5
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #27.
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440a50	ptr = 1605e40	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440aa8	ptr = 1685e50	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = toread	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = towrite	readers = (0/1)	writers = (1)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #27.
+
+ddq_loop() : op->uid = 3
+ddq_loop() : prev_op->uid = 4
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #28.
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440848	ptr = 1485e10	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b12344408a0	ptr = 1505e20	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = toread	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = toread	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = towrite	readers = (0/1)	writers = (1)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #28.
+
+ddq_loop() : op->uid = 2
+ddq_loop() : prev_op->uid = 3
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #29.
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440640	ptr = 1305de0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440698	ptr = 1385df0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = toread	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = toread	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = toread	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = towrite	readers = (0/1)	writers = (1)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #29.
+
+ddq_loop() : op->uid = 1
+ddq_loop() : prev_op->uid = 2
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #30.
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440438	ptr = 1185db0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440490	ptr = 1205dc0	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = toread	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = toread	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = toread	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = toread	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = towrite	readers = (0/1)	writers = (1)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #30.
+
+ddq_loop() : op->uid = 0
+ddq_loop() : prev_op->uid = 1
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #31.
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:2b1234440080	ptr = 402f7c	status = toread	
+	in[0] 	= 	OBJ:2b1234440230	ptr = 1005d80	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234440288	ptr = 1085d90	status = toread	readers = (0/1)	writers = (0)
+	out[0] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = toread	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = toread	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = toread	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = toread	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = toread	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = towrite	readers = (0/1)	writers = (1)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #31.
+
+ddq_loop() : op->uid = 10
+ddq_loop() : prev_op->uid = 0
+ddq_loop() : ring->n_ops = 11
+1 1 1 1 1 1 1 1 1 1 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #32.
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = toread	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = toread	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = toread	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = toread	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = toread	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = toread	readers = (0/1)	writers = (0)
+OP:2b1234441378 uid: 9 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234441170 uid: 8 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440f68 uid: 7 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440d60 uid: 6 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440b58 uid: 5 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440950 uid: 4 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440748 uid: 3 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440540 uid: 2 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440338 uid: 1 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+OP:2b1234440130 uid: 0 status:1
+	neighbors[0] 	= 	2b1234441580	
+	f 	= 	OBJ:NULL
+	in[0] 	= 	OBJ:NULL
+	in[1] 	= 	OBJ:NULL
+	out[0] 	= 	OBJ:NULL
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #32.
+
+ddq_loop() : op->uid = 10
+ddq_loop() : prev_op->uid = 10
+ddq_loop() : ring->n_ops = 1
+2 2 2 2 2 2 2 2 2 2 1 
+Log at Line #478 of File 'ddq_loop.c : 'start iter #33.
+OP:2b1234441580 uid: 10 status:1
+	neighbors[0] 	= 	2b1234441378		neighbors[1] 	= 	2b1234441170		neighbors[2] 	= 	2b1234440f68		neighbors[3] 	= 	2b1234440d60		neighbors[4] 	= 	2b1234440b58		neighbors[5] 	= 	2b1234440950		neighbors[6] 	= 	2b1234440748		neighbors[7] 	= 	2b1234440540		neighbors[8] 	= 	2b1234440338		neighbors[9] 	= 	2b1234440130	
+	f 	= 	OBJ:2b12344400d8	ptr = 402de2	status = toread	
+	in[0] 	= 	OBJ:2b1234441528	ptr = 1f0a8e0	status = toread	readers = (0/1)	writers = (0)
+	in[1] 	= 	OBJ:2b1234441320	ptr = 1d05f20	status = toread	readers = (0/1)	writers = (0)
+	in[2] 	= 	OBJ:2b1234441118	ptr = 1b85ef0	status = toread	readers = (0/1)	writers = (0)
+	in[3] 	= 	OBJ:2b1234440f10	ptr = 1a05ec0	status = toread	readers = (0/1)	writers = (0)
+	in[4] 	= 	OBJ:2b1234440d08	ptr = 1885e90	status = toread	readers = (0/1)	writers = (0)
+	in[5] 	= 	OBJ:2b1234440b00	ptr = 1705e60	status = toread	readers = (0/1)	writers = (0)
+	in[6] 	= 	OBJ:2b12344408f8	ptr = 1585e30	status = toread	readers = (0/1)	writers = (0)
+	in[7] 	= 	OBJ:2b12344406f0	ptr = 1405e00	status = toread	readers = (0/1)	writers = (0)
+	in[8] 	= 	OBJ:2b12344404e8	ptr = 1285dd0	status = toread	readers = (0/1)	writers = (0)
+	in[9] 	= 	OBJ:2b12344402e0	ptr = 1105da0	status = toread	readers = (0/1)	writers = (0)
+Log at Line #483 of File 'ddq_loop.c : 'stop iter #33.
+
+ddq_loop pthread_pool 测试运行时间: 0.033620 秒
+性能: 9.98 GFLOPS
+Base 和 ddq_loop_pthread_pool 结果一致。
+所有测试完成！

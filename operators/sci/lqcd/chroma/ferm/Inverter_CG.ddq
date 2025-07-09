@@ -1,0 +1,16 @@
+[xml] < newop < [residue maxiter]
+
+xml = load_type(sci/lqcd/chroma/xml/GroupXML)
+residue = load_type(std/real)
+maxiter = load_type(std/int)
+
+[xml] < load_op(sci/lqcd/chroma/xml/PackGroupXML) < ["CG_INVERTER" "/InvertParam" param]
+[param] < load_op(utl/xml/node) < ["InvertParam" set]
+[set] < load_op(std/str/obj_cat) < [3 method rsd max]
+[method] < load_op(utl/xml/node_str) < ["invType" "CG_INVERTER" t]
+[rsd] < load_op(utl/xml/node_real) < ["RsdCG" residue t]
+[max] < load_op(utl/xml/node_int) < ["MaxCG" maxiter t]
+
+t = 0
+t.consumable = TRUE
+

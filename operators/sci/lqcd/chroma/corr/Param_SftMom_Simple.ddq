@@ -1,0 +1,14 @@
+
+[mom] < newop < [newop.mom2_max newop.avg_equiv_mom]
+
+mom = load_type(std/ptr)
+newop.mom2_max = load_type(std/int)
+newop.avg_equiv_mom = load_type(std/int)
+
+[mom] < op < [newop.mom2_max newop.avg_equiv_mom t]
+op = load_so(sci/lqcd/chroma/op_chroma/op_SftMom_Simple)
+op.processor = "direct"
+
+t = 0
+t.consumable = TRUE
+

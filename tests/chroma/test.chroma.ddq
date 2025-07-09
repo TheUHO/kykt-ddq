@@ -1,0 +1,28 @@
+
+CalcPlaq < [conf] < LoadConfig
+LoadConfig = load_op(sci/lqcd/chroma/gauge/ConfigWeakField)
+CalcPlaq = load_op(sci/lqcd/chroma/gauge/CalcPlaq)
+
+[source] < MkSource < [conf "0 0 0 0"]
+MkSource = load_op(sci/lqcd/chroma/ferm/Source_Shell)
+MkSource.gaussian_size = 2.0
+MkSource.gaussian_count = 5
+MkSource.ape_size = 2.5
+MkSource.ape_count = 1
+
+[prop] < MkProp < [source conf]
+MkProp = load_op(sci/lqcd/chroma/ferm/CalcProp)
+[MkProp.inverter] < load_op(sci/lqcd/chroma/ferm/Inverter_CG) < [1.0e-8 100]
+[MkProp.action] < load_op(sci/lqcd/chroma/ferm/Action_Wilson) < [0.11 aniso]
+[aniso] < load_op(sci/lqcd/chroma/ferm/Isotropic)
+
+[corr] < MkCorr < [prop prop]
+MkCorr = load_op(sci/lqcd/chroma/corr/CalcMeson2pt)
+MkCorr.gamma = MkCorr.pseudoscalar
+[MkCorr.mom] < MkCorrParam
+MkCorrParam = load_op(sci/lqcd/chroma/corr/Param_SftMom_Simple)
+MkCorrParam.mom2_max = 27
+MkCorrParam.avg_equiv_mom = TRUE
+
+load_op(sci/lqcd/chroma/corr/Write2pt) < [corr "test.out.dat"]
+

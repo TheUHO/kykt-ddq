@@ -1,0 +1,4 @@
+newop = load_so(std/time/sleeps)
+newop.processor = "direct"
+newop < [load_type(std/int)]
+

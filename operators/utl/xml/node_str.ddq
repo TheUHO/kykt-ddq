@@ -1,0 +1,9 @@
+newop = load_so(utl/xml/node_str)
+newop.processor = "direct"
+
+[res] < newop < [tag value]
+
+res = load_type(std/mem)
+tag = load_type(std/str)
+value = load_type(std/str)
+

@@ -1,0 +1,3 @@
+newop = load_builtin(op_noop)
+newop.processor = "direct"
+

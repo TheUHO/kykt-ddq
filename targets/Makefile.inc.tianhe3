@@ -1,0 +1,66 @@
+
+export M3000_ENV = /thfs1/software/programming_env/mt3000_programming_env/mt3000_programming_env_20231227
+export HTHREAD_HOME = ${M3000_ENV}/hthreads
+export DSP_CC_HOME = ${M3000_ENV}/dsp_compiler
+export LIBMT_HOME = ${M3000_ENV}/libmt
+export HTHREAD_HOST_SO = /thfs1/home/lzz/hanbin/lib
+
+export LD_LIBRARY_PATH=${M3000_ENV}/third-party-lib:$LD_LIBRARY_PATH
+export LDLIBS=$(install_path)/lib/ddq/*.a $(install_path)/lib/ddq/*.a
+
+BUILD_UNITS := cpu dsp
+
+cpu_processors := direct pthread tianhe call fork
+cpu_oplibs := so tianhe
+cpu_operators := device/tianhe/host mem/tianhe/host tensor/host utl/cmdline
+export CPU_CC=gcc
+export CPU_CFLAGS=-O2 -g -I${pathpref}/operators/ -I${pathpref}/ddq -I$(HTHREAD_HOME)/include -I${LIBMT_HOME}/include $(foreach i, $(cpu_processors), -Denable_processor_$(i)) -fPIC -DPATH_TEMP='"/tmp"' -DFILE_DAT='"$(install_path)/etc/tianhe_kernel.dat"'
+export CPU_LDFLAGS=-lpthread -ldl $(LIBMT_HOME)/lib/libmt.a -L$(HTHREAD_HOST_SO) -lhthread_host
+
+dsp_processors := direct
+dsp_operators:= tests/tianhe_kernel mem/tianhe/kernel tensor/kernel
+dsp_oplibs:=
+export DSP_CC=${DSP_CC_HOME}/bin/MT-3000-gcc
+export DSP_LD=${DSP_CC_HOME}/bin/MT-3000-ld
+export DSP_MAKEDAT=${DSP_CC_HOME}/bin/MT-3000-makedat
+export DSP_CFLAGS=-O2 -g -gdwarf-2 -fenable-m3000 -ffunction-sections -flax-vector-conversions -I${pathpref}/operators/ -I${pathpref}/ddq -I${HTHREAD_HOME}/include -I${DSP_CC_HOME}/include $(foreach i, $(dsp_processors), -Denable_processor_$(i)) -Denable_processor_dsp -fPIC
+export DSP_LDFLAGS=-L$(HTHREAD_HOME)/lib -Tdsp.lds -lhthread_device ${DSP_CC_HOME}/lib/vlib3000.a ${DSP_CC_HOME}/lib/slib3000.a
+
+BUILD_UNIT ?= cpu
+
+ifeq ($(BUILD_UNIT),cpu)  
+    export processors=${cpu_processors}
+    export operators=${cpu_operators}
+    export oplibs=${cpu_oplibs}
+    export CC=${CPU_CC}
+    export CFLAGS=${CPU_CFLAGS}
+    export LDFLAGS=${CPU_LDFLAGS}
+else ifeq ($(BUILD_UNIT),dsp)  
+    export processors=${dsp_processors}
+    export operators=${dsp_operators}
+    export oplibs=${dsp_oplibs}
+    export CC=${DSP_CC}
+    export CFLAGS=${DSP_CFLAGS}
+    export LDFLAGS=${DSP_LDFLAGS} 
+    export LD=${DSP_LD}
+    export MAKEDAT=${DSP_MAKEDAT}
+else  
+    $(error Unknown BUILD_UNIT: $(BUILD_UNIT))  
+endif  
+
+all :
+	@$(MAKE) BUILD_UNIT=cpu cpu_build
+	@echo "Completed build for type: cpu"
+	cp processors/processor_tianhe/processor_tianhe_kernel.o /tmp
+	@$(MAKE) BUILD_UNIT=cpu clear
+	@$(MAKE) BUILD_UNIT=dsp dsp_build
+	@echo "Completed build for type: dsp" 
+	@$(MAKE) BUILD_UNIT=dsp clear
+
+cpu_build: compile install
+
+dsp_build: compile.ddq compile.processors compile.operators install_tianhe3_dsp
+
+install_tianhe3_dsp	:	compile.ddq compile.processors compile.operators
+	$(LD) -o $(install_path)/etc/tianhe_kernel.out /tmp/processor_tianhe_kernel.o ddq/*.o $(foreach i, $(operators), operators/$(i)/*.o) $(foreach i, $(processors), processors/processor_$(i)/processor_$(i)_private.o) $(LDFLAGS)
+	$(MAKEDAT) -J $(install_path)/etc/tianhe_kernel.out

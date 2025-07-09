@@ -1,0 +1,20 @@
+
+export processors=direct pthread call fork pthread_pool cuda
+
+export oplibs=so
+
+export operators=std
+
+export CC=gcc
+
+export CU_CFLAGS=-O2 -g -I/usr/include/openblas -I${pathpref}/operators/ -I${pathpref}/ddq $(foreach i, $(processors), -Denable_processor_$(i))  -DPATH_TEMP='"/tmp"'
+#export CFLAGS=-g -O2 -fPIC -pthread $(foreach i, $(processors), -Denable_processor_$(i)) -DPATH_TEMP='"/tmp"'
+export CFLAGS=-O2 -g -fPIC -I/usr/include/openblas -I${pathpref}/operators/ -I${pathpref}/ddq $(foreach i, $(processors), -Denable_processor_$(i))  -DPATH_TEMP='"/tmp"'
+
+export LDFLAGS=-L$(install_path)/lib/ddq -loplib -lddq_script -lstd_types -lddq -ldl -lrt -pthread -lopenblasp64 -L/usr/local/cuda/lib64 -lcudart
+
+export LDLIBS=$(install_path)/lib/ddq/*.a
+
+all	:	compile install
+
+

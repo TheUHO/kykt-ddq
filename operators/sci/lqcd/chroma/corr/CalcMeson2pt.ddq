@@ -1,0 +1,20 @@
+
+[corr] < newop < [sink1 sink2 newop.mom newop.gamma]
+
+corr = load_type(sci/lqcd/chroma/corr/Corr2pt)
+sink1 = load_type(sci/lqcd/chroma/ferm/LatticePropagator)
+sink2 = load_type(sci/lqcd/chroma/ferm/LatticePropagator)
+newop.mom = load_type(std/ptr)
+newop.gamma = load_type(std/int)
+
+newop.scalar = 0
+newop.pseudoscalar = 15
+
+[corr] < op < [sink1 sink2 newop.mom newop.gamma t]
+op = load_so(sci/lqcd/chroma/op_chroma/op_ComputeMesons2)
+op.processor = "pthread_qmp"
+op.qmp = 6
+
+t = 0
+t.consumable = TRUE
+

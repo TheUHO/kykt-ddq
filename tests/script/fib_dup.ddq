@@ -1,0 +1,14 @@
+load_op(std/int/print) < [a]
+load_op(std/int/print) < [b]
+[a] < load_op(std/int/init) < [1]
+[b] < load_op(std/int/init) < [1]
+
+a ~ c ~ e
+b ~ d ~ f
+[a] < load_op(std/noop) < [e]
+[b] < load_op(std/noop) < [f]
+[e] < load_op(std/int/add) < [c d]
+[f] < load_op(std/int/add) < [e d]
+[c] < load_op(std/noop) < [a]
+[d] < load_op(std/noop) < [b]
+

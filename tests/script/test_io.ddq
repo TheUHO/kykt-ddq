@@ -1,0 +1,6 @@
+fi = "t_a.txt"
+fo = "t_b.txt"
+fi.consumable = TRUE
+load_op(std/io/filewrite) < [fo a]
+[a] < load_op(std/io/fileread) < [fi]
+

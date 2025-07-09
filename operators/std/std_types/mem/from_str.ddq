@@ -1,0 +1,4 @@
+newop = load_so(std/obj/str2obj)
+newop.processor = "direct"
+[load_type(std/mem)] < newop < [load_type(std/str)]
+

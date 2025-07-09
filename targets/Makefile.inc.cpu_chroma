@@ -1,0 +1,19 @@
+
+export processors=direct call pthread fork pthread_qmp
+
+export oplibs=so
+
+export operators=std utl/xml sci/lqcd/chroma
+
+export CC=mpicc
+
+export CFLAGS=-g -O2 -fPIC -pthread $(foreach i, $(processors), -Denable_processor_$(i)) -DPATH_TEMP='"/tmp"' -I${CHROMA_PATH}/include -I${CHROMA_PATH}/build/qmp/include
+#export CFLAGS=-g -fsanitize=address -O0 -fPIC -pthread $(foreach i, $(processors), -Denable_processor_$(i)) -DPATH_TEMP='"/tmp"' -I${CHROMA_PATH}/include -I${CHROMA_PATH}/build/qmp/include
+
+export LDFLAGS=-L$(install_path)/lib/ddq -loplib -lddq_script -lstd_types -lddq -ldl -L${CHROMA_PATH}/lib -lqmp
+
+export LDLIBS=$(install_path)/lib/ddq/*.a
+
+all	:	compile install
+
+

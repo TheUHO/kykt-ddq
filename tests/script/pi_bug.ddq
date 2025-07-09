@@ -1,0 +1,26 @@
+print := load_op(std/real/print)
+add := load_op(std/real/add)
+mul4 := load_op(std/real/mul4)
+mul := load_op(std/real/mul)
+inv := load_op(std/real/inv)
+init := load_op(std/real/init)
+sleep := load_op(std/time/sleep)
+
+print < [pi] < add < [pi term]
+[term] < mul4 < [s ia ib ic]
+
+[s] < mul < [s -1.0]
+[ia] < inv < [a] < add < [a 2.0]
+[ib] < inv < [b] < add < [b 2.0]
+[ic] < inv < [c] < add < [c 2.0]
+
+[pi] < init < [3.0]
+[s] < init < [4.0]
+[a] < init < [2.0]
+[b] < init < [3.0]
+[c] < init < [4.0]
+
+init.once = 1
+
+sleep < [1]
+

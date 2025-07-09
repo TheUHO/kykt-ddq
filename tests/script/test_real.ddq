@@ -1,0 +1,9 @@
+
+load_op(std/real/print) < [a] < load_op(std/real/div) < [b c]
+b = 3.0
+b.consumable = TRUE
+c = 5.0
+c.consumable = TRUE
+
+load_op(std/real/print) < [d] < load_op(std/real/exp) < [a]
+

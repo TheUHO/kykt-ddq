@@ -1,0 +1,28 @@
+/*
+// 两种调用方式错误信息不同
+print := load_op(utl/xml/print)
+node_str := load_op(utl/xml/node_str)
+print < [a] < node_str < ["aa" "bb"]
+*/
+
+//load_op(utl/xml/print) < [a] < load_op(utl/xml/node_str) < ["aa" "bb"]
+
+
+print := load_op(utl/xml/print)
+
+print < [a] < load_op(utl/xml/node) < ["aa" b]
+//load_op(utl/xml/print) < [a] < load_op(utl/xml/node) < ["aa" b]
+[b] < load_op(std/str/2obj) < ["bb"]
+
+/*
+print := load_op(utl/xml/print)
+node := load_op(utl/xml/node)
+init := load_op(std/str/2obj)
+
+print < [a] < node < ["aa" b]
+[b] < init < ["bb"]
+*/
+
+
+
+

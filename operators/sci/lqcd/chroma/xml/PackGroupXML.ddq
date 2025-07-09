@@ -1,0 +1,10 @@
+newop = load_so(sci/lqcd/chroma/op_chroma/op_GroupXML)
+newop.processor = "direct"
+
+[group] < newop < [id path xml]
+
+group = load_type(sci/lqcd/chroma/xml/GroupXML)
+id = load_type(std/str)
+path = load_type(std/str)
+xml = load_type(std/mem)
+

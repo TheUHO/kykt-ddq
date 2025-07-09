@@ -1,0 +1,4 @@
+// 临时用于测试
+[out] < newop < [in]
+[out] < load_op(std/real/div) < [1.0 in]
+

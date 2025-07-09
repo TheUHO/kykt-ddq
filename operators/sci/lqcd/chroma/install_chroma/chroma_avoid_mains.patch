@@ -1,0 +1,15 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index f52495f47..fa26230f3 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -243,8 +243,8 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/lib/chroma_config_internal.h DESTINATI
+ # Heaven help us. 
+ 
+ add_subdirectory(lib)
+-add_subdirectory(mainprogs/main)
+-add_subdirectory(mainprogs/tests)
++# add_subdirectory(mainprogs/main)
++# add_subdirectory(mainprogs/tests)
+ 
+ #install the FindGMP module so we can find GMP in depenendices
+ # if needed

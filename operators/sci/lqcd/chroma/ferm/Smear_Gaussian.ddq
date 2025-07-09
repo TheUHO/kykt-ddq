@@ -1,0 +1,13 @@
+
+[res] < newop < [newop.size newop.count]
+
+[res] < load_op(utl/xml/node) < ["SmearingParam" set]
+[set] < load_op(std/str/obj_cat) < [4 kind size count ndir]
+[kind] < load_op(utl/xml/node_str) < ["wvf_kind" "GAUGE_INV_GAUSSIAN" t]
+[size] < load_op(utl/xml/node_real) < ["wvf_param" newop.size t]
+[count] < load_op(utl/xml/node_int) < ["wvfIntPar" newop.count t]
+[ndir] < load_op(utl/xml/node_int) < ["no_smear_dir" 3 t]
+
+t = 0
+t.consumable = TRUE
+

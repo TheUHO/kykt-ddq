@@ -1,0 +1,13 @@
+
+[res] < newop < [newop.size newop.count]
+
+[res] < load_op(utl/xml/node) < ["LinkSmearing" set]
+[set] < load_op(std/str/obj_cat) < [4 type size count ndir]
+[type] < load_op(utl/xml/node_str) < ["LinkSmearingType" "APE_SMEAR" t]
+[size] < load_op(utl/xml/node_real) < ["link_smear_fact" newop.size t]
+[count] < load_op(utl/xml/node_int) < ["link_smear_num" newop.count t]
+[ndir] < load_op(utl/xml/node_int) < ["no_smear_dir" 3 t]
+
+t = 0
+t.consumable = TRUE
+

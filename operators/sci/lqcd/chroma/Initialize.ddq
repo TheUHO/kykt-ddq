@@ -1,0 +1,9 @@
+newop = load_so(sci/lqcd/chroma/op_chroma/op_ChromaInitialize)
+newop.processor = "direct"
+newop < [NX NY NZ NT nargs]		// FIXME: 在小端机器上nargs整数也可以当字符串用，输入参数后续应当包括连续nargs个字符串。此处缺少一些错误检测！
+NX = load_type(std/int)
+NY = load_type(std/int)
+NZ = load_type(std/int)
+NT = load_type(std/int)
+nargs = load_type(std/int)
+

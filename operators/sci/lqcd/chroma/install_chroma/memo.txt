@@ -1,0 +1,19 @@
+
+先拷贝env_sample.sh到env.sh，设置其中的路径信息
+
+然后运行：
+
+source env.sh
+mkdir -p ${CHROMA_PATH}
+cd ${CHROMA_PATH}
+make -f ${DDQ_PATH}/operators/sci/lqcd/chroma/install_chroma/chroma_install.mk
+cd ${DDQ_PATH}
+make target=cpu_chroma
+
+应该就自动下载、打补丁、编译、安装上chroma，然后自动编译安装了ddq。
+
+运行测试：
+${DDQ_PATH}/compiled_cpu_chroma/bin/ddqrun ${DDQ_PATH}/tests/test.chroma.ddq
+然后发现报错！错误发生在pool.c的179行的free函数。
+
+

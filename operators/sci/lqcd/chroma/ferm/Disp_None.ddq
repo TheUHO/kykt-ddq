@@ -1,0 +1,11 @@
+
+[res] < newop
+
+[res] < load_op(utl/xml/node) < ["Displacement" set]
+[set] < load_op(std/str/obj_cat) < [2 version type]
+[version] < load_op(utl/xml/node_int) < ["version" 1 t]
+[type] < load_op(utl/xml/node_str) < ["DisplacementType" "NONE" t]
+
+t = 0
+t.consumable = TRUE
+

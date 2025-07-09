@@ -1,0 +1,11 @@
+// inputs[0]里保存运行命令的模板，其中包含转义标记，其中n=1,2,3,4....：
+// 	#-n#表示替换成inputs[n]
+// 	#+n#表示替换成outputs[n]
+// outputs[0]指定承接标准输出的文件名，也可以是""
+// inputs[n]和outputs[n]都是字符串
+// FIXME: 不可以把输出做成字符串，或者放在输入，或者作为临时文件？
+
+newop = load_so(utl/cmdline/shell/op_shell)
+newop.processor = "direct"
+[load_type(std/str)] < newop < [load_type(std/str)]
+
